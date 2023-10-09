@@ -8,17 +8,21 @@ import { BsQrCodeScan } from 'react-icons/bs'
 import { IoFingerPrint, IoSettingsOutline } from 'react-icons/io5'
 import { CgData } from 'react-icons/cg'
 import { RiShoppingCartFill} from 'react-icons/ri'
+import { LiaBarsSolid} from 'react-icons/lia'
 import Footer from './Footer'
+import Sidemenu from './Sidemenu'
 
 const Home = () => {
     return (
         <>
             <div className='bg-red-500 h-screen w-screen pt-5'>
                 <div className='mx-5 mb-2  flex justify-between '>
-                    <div className='flex justify-between gap-2 text-white'>
-                        <BsThreeDots className=' cursor-pointer text-2xl' />
+                    <div className='flex justify-between items-center gap-2 text-white'>
+                        <Sidemenu />
                         <h1 className='font-bold'>Overview</h1>
                     </div>
+
+                    
                     <div>
                         <h1 className='font-bold'>logo</h1>
                     </div>
