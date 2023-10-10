@@ -15,8 +15,8 @@ import Sidemenu from './Sidemenu'
 const Home = () => {
     return (
         <>
-            <div className='bg-red-500 h-screen w-screen pt-5'>
-                <div className='mx-5 mb-2  flex justify-between '>
+            <div className='bg-red-500  h-screen w-screen  pt-5 '>
+                <div className='mx-5 mb-2  flex justify-between relative fixed '>
                     <div className='flex justify-between items-center gap-2 text-white'>
                         <Sidemenu />
                         <h1 className='font-bold'>Overview</h1>
@@ -64,7 +64,7 @@ const Home = () => {
 
                 {/*  the links section*/}
 
-                <div className='px-5 py-3  bg-white h-96'>
+                <div className='px-5 py-3  bg-white '>
                     <h1>invest-Links</h1>
                     <hr />
 
