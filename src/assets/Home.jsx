@@ -15,8 +15,8 @@ import Sidemenu from './Sidemenu'
 const Home = () => {
     return (
         <>
-            <div className='bg-red-500  h-screen w-screen  pt-5 '>
-                <div className='mx-5 mb-2  flex justify-between relative fixed '>
+            <div className='bg-red-500  h-96 w-screen  pt-5 '>
+                <div className='mx-5 mb-2  flex justify-between  '>
                     <div className='flex justify-between items-center gap-2 text-white'>
                         <Sidemenu />
                         <h1 className='font-bold'>Overview</h1>
@@ -114,6 +114,8 @@ const Home = () => {
                     </div>
 
                     <hr />
+
+                    
 
                 </div>
 
