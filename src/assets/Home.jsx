@@ -36,7 +36,7 @@ const Home = () => {
                 {modal && (
 
                     <div className=' modal '>
-                        <div className=' h-screen w-5/6 bg-green-400 absolute z-50'>
+                        <div className=' h-screen w-5/6 bg-green-500 absolute z-50'>
                             <Sidemenu />
                         </div>
 
